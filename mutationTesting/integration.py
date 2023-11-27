@@ -183,7 +183,7 @@ for mutation in mutations:
     write_file_back(module)
     # print("Running tests on the original file.")
     og_result = run_tests("test_"+method)
-    print("printing the 2 results" + str(mutant_result) + str(og_result))
+    # print("printing the 2 results" + str(mutant_result) + str(og_result))
     if (mutant_result != -1):
 
         mutants_created += 1
